@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6i0026/v1
+canonical_location: https://kanripo.org/bkk/KR6i0026/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 未來星宿劫千佛名經
+  identifiers:
+    alt_id:
+    - T14n0448a
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0448a.xml
+    old_id: T14n0448a
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 宮
+  label: 宮
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0026_000.yaml, hash: 'sha256:7bcc94137205f3a1c4426e689501761b501602b2c2f30a415894d071b0058641'}
+  - {seq: 1, filename: KR6i0026_001.yaml, hash: 'sha256:35ccbaf7631967ea3b3139b69b3457e8886474d3330a2eec1bbbea567e128251'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0026_001.markers.yaml, hash: 'sha256:bf169470c78bd633e4999b623b4e4b0bc6f6e7e9ca422d39279ed9d777001b04'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0026_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7322
+  label: 未來星宿劫千佛名經亦名集諸佛大功德山
+  type: juan
+  level: 1
+hash: sha256:0ba00b5c4762aaf93ec05719353d4640f7793dfb080ed3fab6b5c05359670bd0
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
