@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0026_000.yaml, hash: 'sha256:7bcc94137205f3a1c4426e689501761b501602b2c2f30a415894d071b0058641'}
-  - {seq: 1, filename: KR6i0026_001.yaml, hash: 'sha256:35ccbaf7631967ea3b3139b69b3457e8886474d3330a2eec1bbbea567e128251'}
+  - {seq: 1, filename: KR6i0026_001.yaml, hash: 'sha256:0583ee2fc6eb27818770df9a2e8b6caff216481fe08c74df5983e54666d845d2'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0026_001.markers.yaml, hash: 'sha256:bf169470c78bd633e4999b623b4e4b0bc6f6e7e9ca422d39279ed9d777001b04'}
+  - {seq: 0, role: markers, filename: assets/KR6i0026_000.markers.yaml, hash: 'sha256:7e30dc1e0a7f2627dcdc0e9c9d90138027228d3de77c890368525ae50b2c42db'}
+  - {seq: 1, role: markers, filename: assets/KR6i0026_001.markers.yaml, hash: 'sha256:92d9173e91119d0e218d6c53b1006228689d532371a801fbccfe82595aa3382a'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 未來星宿劫千佛名經亦名集諸佛大功德山
   type: juan
   level: 1
-hash: sha256:0ba00b5c4762aaf93ec05719353d4640f7793dfb080ed3fab6b5c05359670bd0
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:f180567a9d29736acb5268c7621a90ff5c5d5bca0a0a9e0a7412ecbf884f1ea3
